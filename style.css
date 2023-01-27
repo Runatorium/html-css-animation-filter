@@ -153,11 +153,41 @@
     text-align: center;
     text-decoration: none;
 }
-.ex-12-button:hover{
-     
-}
 
 
+@keyframes whitetop12 {
+    0% {
+            left: 10%;
+      }
+    50% {
+            left: 60%;
+      }
+    100% {
+            left: 10%;    
+      }
+ }
+
+ @keyframes whitebot12 {
+    0% {
+            right: 20%;
+      }
+    50% {
+            right: 60%;
+      }
+    100% {
+            right: 20%;    
+      }
+ }
+
+
+
+ .ex-12-top-white{
+    animation: whitetop12 2s infinite linear;
+ }
+
+ .ex-12-bottom-white{
+    animation: whitebot12 2s infinite linear;
+ }
 
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
@@ -175,3 +205,47 @@
     width: 60px;
     height: 20px;
 }
+
+
+
+@keyframes whitetop13 {
+    0%{
+        left: -10%;
+        top: -10px;
+    }  
+    50% {
+            left: 71%;
+            top: -10px;    
+      }
+    100% {
+            left: 71%;
+            top:  50px;  
+      }
+ }
+
+
+ @keyframes whitebot13 {
+    0%{
+        bottom: -10px;
+        right: -3%;
+    }  
+    50% {
+
+        bottom: -10px;
+        right: 71%;    
+      }
+    100% {
+        bottom: 48px;
+        right: 71%;   
+    }
+ }
+
+
+
+ .ex-13-top-white{
+    animation: whitetop13 3s infinite linear
+ }
+
+ .ex-13-bottom-white{
+    animation: whitebot13 3s infinite linear
+ }
