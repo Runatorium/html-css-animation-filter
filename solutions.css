@@ -163,3 +163,25 @@
   }
 
 /* Esercizio 10 */
+
+/* Esercizio 11 */
+.ex-11-icon {
+    font-size: 60px;
+    animation: rotationcounterclockwise  2s infinite linear ;
+}
+
+
+@keyframes rotationcounterclockwise {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    75% {
+      transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(-1deg);
+    }
+}
+/* Esercizio 11 */

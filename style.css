@@ -121,7 +121,25 @@
 
 .ex-11-icon {
     font-size: 60px;
+    animation: rotationcounterclockwise  2s infinite linear ;
 }
+
+
+@keyframes rotationcounterclockwise {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    75% {
+      transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(-1deg);
+    }
+
+  
+  }
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -135,6 +153,12 @@
     text-align: center;
     text-decoration: none;
 }
+.ex-12-button:hover{
+     
+}
+
+
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
