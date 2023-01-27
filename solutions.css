@@ -115,6 +115,32 @@
 
 /* Esercizio 8 */
 
-
+.ex-8-img{
+    transition: all 1s
+}
+.ex-8-img:hover{
+    filter: grayscale(100%);
+    opacity: 50%;
+    border-radius: 20%;
+}
 
 /* Esercizio 8 */
+
+
+
+/* Esercizio 9  */
+
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+    transition: all 2s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(100%);
+    opacity: 50%;
+    border-radius: 20%;
+    width: 60%;
+}
+
+/* Esercizio 9 */
